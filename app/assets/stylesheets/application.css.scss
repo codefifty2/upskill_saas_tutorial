@@ -16,21 +16,21 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
+//Typography Styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
-
+//Background Gradient
  .navbar, .home-callout {
    background: rgb(17,11,131);
 background: linear-gradient(90deg, rgba(17,11,131,1) 0%, rgba(62,148,190,1) 0%, rgba(31,163,190,1) 100%);
 }
-
+//Nav Styles
 .navbar {
 
     border: none;
 }
-
+//Home Page Styles
 .home-callout {
     color: white;
     margin-top: -20px;
@@ -39,21 +39,11 @@ background: linear-gradient(90deg, rgba(17,11,131,1) 0%, rgba(62,148,190,1) 0%, 
     
 }
 
-.navbar-default .navbar-brand {
-    color: white;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.75;
 }
-
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.75;
-    
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: white;
-    opacity: 0.75;
 }

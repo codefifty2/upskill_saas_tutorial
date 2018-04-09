@@ -33,6 +33,11 @@ background: linear-gradient(90deg, rgba(17,11,131,1) 0%, rgba(62,148,190,1) 0%, 
 
     border: none;
 }
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
 //Home Page Styles
 .home-callout {
     color: white;
